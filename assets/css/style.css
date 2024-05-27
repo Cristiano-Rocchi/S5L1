@@ -313,12 +313,33 @@ aside div p:last-child {
     padding-top: 0.7em;
     position: absolute;
   }
+  header a {
+    font-size: 16px;
+  }
+  header img {
+    width: 12em;
+    margin-right: 1.5em;
+    padding-bottom: 1em;
+  }
+  main {
+    padding: auto;
+  }
+  p,
+  ul,
+  ol,
+  h2 {
+    font-size: 19px;
+  }
 }
-header a {
-  font-size: 16px;
+iframe {
+  display: inline-block;
+  width: 48%;
+  height: 20em;
 }
-header img {
-  width: 12em;
-  margin-right: 1.5em;
-  padding-bottom: 1em;
+section {
+  display: inline-block;
+  width: 48%;
+  position: absolute;
+  height: 20em;
+  border-radius: 20px;
 }
