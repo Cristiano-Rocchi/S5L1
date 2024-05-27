@@ -267,9 +267,11 @@ aside div p:last-child {
   p,
   ul,
   ol,
-  h2,
-  a {
+  h2 {
     font-size: 20px;
+  }
+  main a {
+    font-size: 17px;
   }
   input {
     width: 70%;
@@ -279,6 +281,44 @@ aside div p:last-child {
     height: 3em;
     width: 15%;
   }
+  aside div p:last-child {
+    font-size: 15px;
+  }
+  footer a {
+    font-size: 22px;
+  }
 }
 
 /* sistemare placeholder */
+/* sistemare a in mobile viewport */
+/* ingrandire tabella */
+@media screen and (min-width: 768px) {
+  header {
+    text-align: unset;
+    height: 5em;
+    padding-top: 10px;
+  }
+  header div,
+  nav,
+  header p {
+    display: inline-block;
+  }
+  header p {
+    position: absolute;
+    padding-top: 0.7em;
+    font-size: 16px;
+  }
+  nav {
+    padding-left: 48em;
+    padding-top: 0.7em;
+    position: absolute;
+  }
+}
+header a {
+  font-size: 16px;
+}
+header img {
+  width: 12em;
+  margin-right: 1.5em;
+  padding-bottom: 1em;
+}
