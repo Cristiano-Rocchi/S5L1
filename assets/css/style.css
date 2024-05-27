@@ -211,3 +211,25 @@ footer {
 footer a {
   color: fuchsia;
 }
+
+@media screen and (min-width: 576px) {
+  header li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+  h1 {
+    letter-spacing: -0.09em;
+    font-size: 5rem;
+  }
+  #logoDiv {
+    height: 3.7em;
+    width: 3.7em;
+  }
+
+  p,
+  ul,
+  ol,
+  h2 {
+    font-size: 19px;
+  }
+}
