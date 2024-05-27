@@ -57,7 +57,7 @@ header nav li a::before {
 main {
   background-color: #fff;
   box-shadow: 0 3px 3px #444;
-  padding: 2em 1em;
+  padding: 2em;
   margin-bottom: 1.5em;
 }
 section {
