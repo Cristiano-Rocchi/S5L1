@@ -132,6 +132,7 @@ iframe {
 /* TABELLE */
 table {
   margin-bottom: 2em;
+  width: 70%;
 }
 caption {
   font-weight: bold;
@@ -267,10 +268,11 @@ aside div p:last-child {
   p,
   ul,
   ol,
-  h2 {
+  h2,
+  a {
     font-size: 20px;
   }
-  main a {
+  aside a {
     font-size: 17px;
   }
   input {
@@ -336,7 +338,8 @@ aside div p:last-child {
   ul,
   ol,
   h2,
-  h1 + p {
+  h1 + p,
+  a {
     font-size: 16px;
   }
   iframe {
@@ -361,7 +364,7 @@ aside div p:last-child {
     padding-left: 15em;
     padding-right: 15em;
   }
-  main a {
+  aside a {
     font-size: 13px;
   }
   aside div p:last-child {
