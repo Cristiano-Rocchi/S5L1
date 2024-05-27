@@ -224,6 +224,7 @@ footer a {
   #logoDiv {
     height: 3.7em;
     width: 3.7em;
+    margin-bottom: 0.3em;
   }
 
   p,
@@ -246,3 +247,38 @@ footer a {
 aside div p:last-child {
   font-size: 13px;
 }
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 6rem;
+    letter-spacing: -0.3rem;
+  }
+  h1 + p {
+    font-size: 19px;
+  }
+  #logoDiv {
+    height: 5em;
+    width: 5em;
+    margin-bottom: 0.3em;
+  }
+  table {
+    margin: auto;
+    margin-bottom: 6em;
+  }
+  p,
+  ul,
+  ol,
+  h2,
+  a {
+    font-size: 20px;
+  }
+  input {
+    width: 70%;
+    height: 3em;
+  }
+  button {
+    height: 3em;
+    width: 15%;
+  }
+}
+
+/* sistemare placeholder */
